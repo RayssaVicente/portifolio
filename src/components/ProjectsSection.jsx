@@ -42,7 +42,7 @@ const projects = [
         id: 5,
         title: "Gerenciador de Torneios",
         description: "Uma solução completa para organização de competições esportivas, automatizando desde a entrada de dados via PDF até a gestão de chaves e rankings acumulados.",
-        image: "/public/assets/torneio.png",
+        image: "/assets/torneio.png",
         tags: ["HTML", "CSS", "JavaScript"],
         demoUrl: "/Sistema_Torneio.2.0.exe",
         githubUrl: "https://github.com/RayssaVicente/Gerenciador-de-Torneio",
