@@ -1,101 +1,89 @@
-import { Briefcase, Code, User } from "lucide-react"
-
+import { Briefcase, Code, User, Rocket } from "lucide-react"
 
 export const AboutMe = () => {
-    return <section id="about" className="py-24 px-4 relative">
-        {" "}
-        <div className="container mx-auto max-w-5xl">
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-                Sobre <span className="text-primary">Mim</span>
-            </h2>
+    return (
+        <section id="About" className="py-24 px-4 relative">
+            <div className="container mx-auto max-w-5xl">
+                <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+                    Sobre <span className="text-primary">Mim</span>
+                </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold">Desenvolvedor web e criador de automações</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div className="space-y-6 text-center md:text-left">
+                        <h3 className="text-2xl md:text-3xl font-semibold">
+                            Desenvolvedora Full Stack & Especialista em Automações
+                        </h3>
 
-                    <p>
-                        Sou um desenvolvedor web apaixonado por criar experiências digitais envolventes e funcionais.
-                        Meu objetivo é transformar ideias em realidade, construindo sites e aplicações que não apenas atendam às necessidades dos usuários, 
-                        mas também proporcionem uma experiência intuitiva e agradável.
-                    </p>
+                        <p className="text-muted-foreground leading-relaxed">
+                            Desenvolvedora Web e criadora de automações personalizadas. Foco em construir aplicações reais com interfaces fluidas e fluxos de trabalho inteligentes e eficientes.
+                        </p>
 
-                    <p>
-                        Alem de desenvolvedor web, sou um entusiasta de automações, sempre buscando maneiras de otimizar processos e aumentar a eficiência de desnvolvendo soluções de alta qualidade de acordo com o gosto de cliente.
-                    </p>
-
-                    <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                        <a href="#contact" className="cosmic-button">
-                            {" "}
-                            Entre em contato
-                        </a>
-
-                        
-                        <a 
-                            href="/Rayssa Vicente.docx (9).pdf" 
-                            download
-                            className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                        <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start">
+                            <a href="#contact" className="cosmic-button text-center">
+                                Entre em contato
+                            </a>
+                            
+                            <a 
+                                href="/Rayssa Vicente.docx (9).pdf" 
+                                download
+                                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 text-center"
                             >
-                            Download CV
-                        </a>
-                        
-                    </div>
-                </div>
-
-                <div className="grid grid-cols-1 gap-6">
-                    <div className="gradient-border p-6 card-hover">
-                        <div className="flex items-start gap-4">
-                            <div className="p-3 rounded-full bg-primary/10">
-                                <Code className="h-6 w-6 text-primary"></Code>
-                            </div>
-
-                            <div className="text-left">
-                                <h4 className="text-semibold text-lg">Desenvolvimento web e criação de automações
-                                </h4>
-                                <p className="text-muted-foreground">
-                                    Criação de sites e aplicações web responsivas com 
-                                    frameworks modernos, e automações personalizadas para cada cliente.
-                                </p>
-                            </div>
+                                Download CV
+                            </a>
                         </div>
                     </div>
 
-                    <div className="gradient-border p-6 card-hover">
-                        <div className="flex items-start gap-4">
-                            <div className="p-3 rounded-full bg-primary/10">
-                                <User className="h-6 w-6 text-primary"></User>
-                            </div>
-
-                            <div className="text-left">
-                                <h4 className="text-semibold text-lg">Atendimento personalizado</h4>
-                                <p className="text-muted-foreground">
-                                    Entendo a importância de ouvir as necessidades do cliente e criar soluções personalizadas que atendam às suas expectativas.
-                                </p>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-
-                    <div className="gradient-border p-6 card-hover">
-                        <div className="flex items-start gap-4">
-                            <div className="p-3 rounded-full bg-primary/10">
-                                <Briefcase className="h-6 w-6 text-primary"></Briefcase>
-                            </div>
-
-                            <div className="text-left">
-                                <h4 className="text-semibold text-lg">Valores acessíveis</h4>
-                                <p className="text-muted-foreground">
-                                    Oferecendo soluções de desenvolvimento web acessíveis e de qualidade, com preços competitivos e serviços personalizados para atender às necessidades específicas de cada cliente.
-                                </p>
+                    <div className="grid grid-cols-1 gap-6">
+                        {/* Card 1: Automação */}
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10 shrink-0">
+                                    <Rocket className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">Automações Personalizadas</h4>
+                                    <p className="text-sm text-muted-foreground">
+                                        Desenvolvimento de scripts e ferramentas de automação sob medida 
+                                        para otimizar fluxos de trabalho e análise de dados.
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
-                        
-                    </div>
-                    
+                        {/* Card 2: Web Dev */}
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10 shrink-0">
+                                    <Code className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">Desenvolvimento Full Stack</h4>
+                                    <p className="text-sm text-muted-foreground">
+                                        Criação de aplicações modernas e responsivas utilizando React, 
+                                        Next.js e Node.js com foco total na experiência do usuário.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
+                        {/* Card 3: Consultoria */}
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10 shrink-0">
+                                    <User className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">Foco no Cliente</h4>
+                                    <p className="text-sm text-muted-foreground">
+                                        Soluções pensadas para cada necessidade, aliando alta qualidade 
+                                        técnica com excelente custo-benefício.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    )
 }
