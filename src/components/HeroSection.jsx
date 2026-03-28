@@ -19,8 +19,8 @@ export const HeroSection = () => {
                 </h1>
 
                 <p className="text-le md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                Sou um desenvolvedor full-stack e criador de automações com python, gosto de programar e meu objetivo é criar sites,aplicativos e automações incríveis que resolvam problemas 
-                do mundo real e que tenham uma aparência impecável em todos os dispositivos.
+                Desenvolvedora Full Stack focada em criar interfaces fluidas e soluções eficientes. Atualmente, exploro a interseção entre Ciência de Dados e automações.
+
                 </p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
@@ -37,5 +37,6 @@ export const HeroSection = () => {
             </span>
             <ArrowDown className="h-5 w-5 text-primary" />
         </div>
+
     </section>
 }
