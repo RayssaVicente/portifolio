@@ -15,7 +15,7 @@ const skillGroups = [
   {
     title: "Tools & Extras",
     icon: <Wrench className="w-5 h-5 text-purple-400" />,
-    skills: ["Git/GitHub", "Figma", "VS Code", "Selenium", "Playwright"
+    skills: ["Git/GitHub", "Figma", "VS Code", "Selenium", "Playwright"]
   }
 ];
 
