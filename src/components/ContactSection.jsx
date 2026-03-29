@@ -81,12 +81,12 @@ export const ContactSection = () => {
                                 <div className="pt-8">
                                     <h4 className="font-medium mb-4">Minhas redes</h4>
                                     <div className="flex space-x-5 justify-center md:justify-start">
-                                        <a href="https://linkedin.com/in/rayssavicente" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform text-primary">
+                                        <a href="https://www.linkedin.com/in/rayssa-vicente-viegas-0b3027201/" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform text-primary">
                                             <Linkedin className="h-6 w-6" />
                                         </a>
-                                        <a href="https://instagram.com/rayssavicente" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform text-primary">
+                                        {/* <a href="https://instagram.com/rayssavicente" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform text-primary">
                                             <Instagram className="h-6 w-6" />
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
