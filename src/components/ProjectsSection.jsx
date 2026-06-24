@@ -25,8 +25,8 @@ const projects = [
         description: "Um quadro de tarefas estilo Kanban, desenvolvido com React + TypeScript, usando Radix UI para o design e json-server como API REST fake para simular persistência de dados.",
         image: "/assets/kanban.png",
         tags: ["HTML", "CSS", "JavaScript"],
-        demoUrl: "https://github.com/RayssaVicente/Kanban",
-        githubUrl: "https://rayssavicente.github.io/Kanban/",
+        demoUrl: "https://rayssavicente.github.io/Kanban/",
+        githubUrl: "https://github.com/RayssaVicente/Kanban",
     },
     // {
     //     id: 4,
@@ -64,8 +64,8 @@ const projects = [
         description: "Um site focado em contar um pouco da historia da equipe olimpo nas competições de robotica que participaram",
         image: "/assets/olimpo.png",
         tags: ["HTML", "CSS", "JavaScript"],
-        demoUrl: "https://github.com/RayssaVicente/Olimpo",
-        githubUrl: "https://rayssavicente.github.io/Olimpo/",
+        demoUrl: "https://rayssavicente.github.io/Olimpo/",
+        githubUrl: "https://github.com/RayssaVicente/Olimpo",
     },
 ]
 
